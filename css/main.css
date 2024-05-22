@@ -1,0 +1,218 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+:root {
+    /* Colors */
+    --primary: #0090B2;
+    --black: #000000;
+    --warning: #FFC619;
+    --white: #FFFFFF;
+    --secondary: #1E4063;
+    --success: #29CC7A;
+    --danger: #FF3D3D;
+    --gray-light: #E4E4E4;
+    --gray-dark: #6F6F6F;
+    --dongker: #0F172A;
+    --dongker-light: #2C3344;
+    --border-primary: #8992F9;
+    --border-warning: #FBD76A;
+    --border-secondary: #FF86C0;
+    --border-success: #63D99E;
+
+    /* Typography */
+    --headline: 50px;
+    --headline-mobile: 32px;
+    --title: 48px;
+    --body: 20px;
+    --number: 40px;
+    --small-body-regular: 16px;
+    --xs: 14px;
+    --label: 18px;
+    --desc-label: 14px;
+    --txt-footer: 15px;
+
+    /* Font Weight */
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-extrabold: 800;
+}
+
+
+/* Font family */
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+
+/* styles of brand logo in navbar */
+.brandLogoSolo{
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background Color */
+.bg-primary{
+    background-color: var(--white) !important;
+}
+
+/* Button */
+.btn {
+    padding: 13px 30px;
+    font-size: 15px;
+    font-weight: var(--fw-medium);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.btn-color{
+    background-color: var(--primary);
+    border: 2px solid var(--secondary);
+}
+
+.btn:hover{
+    background-color: var(--secondary);
+    color: var(--white);
+    box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.12);
+}
+
+.btn-color:active{
+    background-color: var(--secondary);
+    border: 2px solid black;
+    color: var(--white);
+    border: 1px solid var(--gray-light) !important;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.btn-outline-primary{
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active{
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+
+/* Padding */
+.pt-16{
+    padding-top: 16px;
+}
+
+.pt-25{
+    padding-top: 25px;
+}
+
+.pt-200{
+    padding-top: 200px;
+}
+
+.pb-hero{
+    padding-bottom: 6rem !important;
+}
+
+
+/* Margin */
+.mb-150{
+    margin-bottom: 150px;
+}
+
+
+/* navbar Section */
+.navbar{
+    padding: 22px 0;
+}
+
+a.nav-link{
+    font-family: var(--small-body-regular);
+    line-height: 98.5%;
+    font-weight: var(--fw-medium);
+    margin-left: 36px;
+    transition: 0.3s;
+}
+
+a.nav-link:hover,
+a.nav-link:focus{
+    background-color: var(--gray-light);
+    border-radius: 10px;
+}
+
+
+/* Hero Section */
+.hero{
+    background-color: var(--primary);
+}
+
+.hero .content{
+    padding: 2.5rem;
+}
+
+.hero-headline{
+    font-size: var(--headline);
+    font-weight: var(--fw-extrabold);
+    line-height: 120%;
+    color: var(--white);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.desc-headline{
+    font-size: var(--body);
+    letter-spacing: 0.03em;
+    line-height: 156%;
+    font-weight: var(--fw-light);
+    color: var(--gray-light);
+    max-width: 389px;
+    margin: 0 auto;
+}
+
+.bg-between{
+    background-position: center;
+    background-size: cover;
+}
+
+ 
+/* Overview Section / No used*/
+/* section.overview{
+    margin-top: -3.5rem;
+}
+
+.card{
+    border: none;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.11);
+    border-radius: 21px;
+}
+
+section.overview .card-body{
+    padding: 25px 0 20px 35px;
+}
+
+section.overview .card-body h2{
+    font-size: var(--number);
+    line-height: 60px;
+    font-weight: var(--fw-semibold);
+    color: var(--black);
+}
+
+section.overview .card-body p {
+    font-size: var(--small-body-regular);
+    line-height: 24px;
+    line-height: 24px;
+    color: var(--gray-dark);
+}
+
+.border-secondary-icon{
+    border: 1px solid var(--gray-light);
+    color: var(--primary);
+    margin: 0 10px;
+} */
